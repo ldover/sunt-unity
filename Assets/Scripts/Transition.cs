@@ -20,6 +20,8 @@ public class Transition : MonoBehaviour
     private bool _translated;
     private bool _moving;
 
+    private bool _textureLoaded = false;
+
     private bool _rotating;
     private float _jitterAvoidance = 1.0f;
 
@@ -70,6 +72,7 @@ public class Transition : MonoBehaviour
             Material mat = new Material(Shader.Find("Insideout"));
             renderer.material = mat;
             renderer.material.SetTexture("_MainTex", myTexture);
+            _textureLoaded = true;
         }
     }
 
@@ -81,6 +84,11 @@ public class Transition : MonoBehaviour
     void Update()
     {
         if (!_moving && !_rotating)
+        {
+            return;
+        }
+
+        if (!_textureLoaded)
         {
             return;
         }
@@ -171,6 +179,7 @@ public class Transition : MonoBehaviour
         _moving = false;
         _translated = false;
         _rotating = false;
+        _textureLoaded = false;
         
         // Enable renderers
         Component[] renderers = sphere.GetComponentsInChildren(typeof(Renderer));
