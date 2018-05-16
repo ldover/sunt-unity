@@ -66,6 +66,8 @@ public class Transition : MonoBehaviour
             Texture myTexture = ((DownloadHandlerTexture)www.downloadHandler).texture;
             Renderer renderer = sphere.GetComponent<Renderer>();
             
+            Material mat = new Material(Shader.Find("Insideout"));
+            renderer.material = mat;
             renderer.material.SetTexture("_MainTex", myTexture);
         }
     }
