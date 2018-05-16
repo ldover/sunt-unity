@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.Networking;
 
 public class Transition : MonoBehaviour
 {
@@ -43,10 +45,28 @@ public class Transition : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            // load image
+            StartCoroutine(GetTexture());
+
             _moving = true;
             _rotating = true;
             _translated = false;
             t0 = Time.time;
+        }
+    }
+
+    private IEnumerator GetTexture()
+    {
+        UnityWebRequest www = UnityWebRequestTexture.GetTexture("http://localhost:3000/images/3d/3d-print.JPG");
+        yield return www.SendWebRequest();
+        if(www.isNetworkError || www.isHttpError) {
+            Debug.Log(www.error);
+        }
+        else {
+            Texture myTexture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+            Renderer renderer = sphere.GetComponent<Renderer>();
+            
+            renderer.material.SetTexture("_MainTex", myTexture);
         }
     }
 
