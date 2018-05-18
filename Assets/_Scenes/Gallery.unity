@@ -499,13 +499,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (5)
+      value: ipad-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c880320c33433854289f43acedf0e03a, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 87.311005
@@ -1066,13 +1066,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (14)
+      value: desk-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7136a83635256844c89e81baa68fab1a, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.62
@@ -1121,13 +1121,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (13)
+      value: projected-dots
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fbb2e274ad2d9ba4592e94d23a536634, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -94.38
@@ -1176,13 +1176,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (18)
+      value: stars
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 45417b8f1d76b9a40bfe31059e40d22c, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 88.3
@@ -1241,13 +1241,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (6)
+      value: trees-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8199a17d28a73e8458be30bad06e2ca5, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.55
@@ -1385,13 +1385,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (3)
+      value: headset-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e507a28945941f4296623a3de8fd7a3, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 88.187004
@@ -1682,13 +1682,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (11)
+      value: heart-2
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e1bd0a79914124640b37d3038f23b81f, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -112.382
@@ -1742,13 +1742,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (2)
+      value: instrument-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8ce03c3f729a42e419e6c0ad9a81f903, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
   m_IsPrefabParent: 0
@@ -1793,13 +1793,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (15)
+      value: floor-tv
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b3d702ef44ac53d499642c4038e73e18, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 181.96
@@ -1912,6 +1912,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -181.312
       objectReference: {fileID: 0}
+    - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
+      propertyPath: m_Name
+      value: posters
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
   m_IsPrefabParent: 0
@@ -1961,13 +1965,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (4)
+      value: medij-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: bc38573db66632c4aa642e2c63e633e0, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 98.345
@@ -2411,13 +2415,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (12)
+      value: 3d-print-2
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a75a4e48be4544a43a6fa37746b88340, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -67.223
@@ -2518,13 +2522,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (1)
+      value: tv-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 11bd6dc942f6f9248844f870e926cbf3, type: 2}
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_image
+      value: 3d-print.JPG
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
   m_IsPrefabParent: 0
@@ -2670,13 +2678,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (19)
+      value: perimiter-2
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 191fdae86face634a9d05bc708a7f1f1, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 170.96
@@ -2866,13 +2874,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (10)
+      value: 3d-print
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b0a2dc51dd86afe4a9ee95918640cef9, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 87.386
@@ -2963,13 +2971,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (8)
+      value: small-center-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fb74e3c1e71319743a38d533cb71d904, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
   m_IsPrefabParent: 0
@@ -3061,13 +3069,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (9)
+      value: interspecies-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f9246d892760e44ba9fa1e5a0b92dad, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 9.99
@@ -3116,13 +3124,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (7)
+      value: heart-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a0da77a41a82b24478c533711606bdb3, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 16.33
@@ -3907,13 +3915,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (17)
+      value: projections
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5a572bc319117d04db092a148cf8e6b6, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 113.3
@@ -3972,13 +3980,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (16)
+      value: wall-1
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 804c2238977ce844c935dec1a7583143, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 154
@@ -4027,13 +4035,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1996892443354768, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_Name
-      value: SphereInsideoutSmall (20)
+      value: tv-2
       objectReference: {fileID: 0}
     - target: {fileID: 23864100486336536, guid: f77e9f2ca71a41548bf380f2ffb78b82,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f3913d0b80f53b74487fe13423f85673, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4916696287883922, guid: f77e9f2ca71a41548bf380f2ffb78b82, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -177.85
