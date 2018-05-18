@@ -59,7 +59,7 @@ public class Transition : MonoBehaviour
 
     private IEnumerator GetTexture()
     {
-        UnityWebRequest www = UnityWebRequestTexture.GetTexture("http://localhost:3000/images/3d/" + sphere.name + ".JPG");
+        UnityWebRequest www = UnityWebRequestTexture.GetTexture("images/3d/" + sphere.name + ".JPG");
         Debug.Log(sphere.name);
         yield return www.SendWebRequest();
         if(www.isNetworkError || www.isHttpError) {
