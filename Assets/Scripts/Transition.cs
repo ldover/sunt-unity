@@ -1,9 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class Transition : MonoBehaviour
 {
+    private static bool DEVELOPMENT = true;
+
     MeshRenderer m_Renderer;
 
     public GameObject sphere;
@@ -59,21 +63,31 @@ public class Transition : MonoBehaviour
 
     private IEnumerator GetTexture()
     {
-        UnityWebRequest www = UnityWebRequestTexture.GetTexture("images/3d/" + sphere.name + ".JPG");
-        Debug.Log(sphere.name);
-        yield return www.SendWebRequest();
-        if(www.isNetworkError || www.isHttpError) {
-            Debug.Log(www.error);
+        Texture sphereTexture;
+        if (DEVELOPMENT)
+        {
+            sphereTexture =
+                (Texture) AssetDatabase.LoadAssetAtPath("Assets/Textures/images/" + sphere.name + ".JPG", typeof(Texture));
         }
-        else {
-            Texture myTexture = ((DownloadHandlerTexture)www.downloadHandler).texture;
-            Renderer renderer = sphere.GetComponent<Renderer>();
-            
-            Material mat = new Material(Shader.Find("Insideout"));
-            renderer.material = mat;
-            renderer.material.SetTexture("_MainTex", myTexture);
-            _textureLoaded = true;
+        else
+        {
+            UnityWebRequest www = UnityWebRequestTexture.GetTexture("images/3d/" + sphere.name + ".JPG");
+            yield return www.SendWebRequest();
+            if (www.isNetworkError || www.isHttpError)
+            {
+                Debug.Log(www.error);
+                throw new Exception();
+            }
+
+            sphereTexture = ((DownloadHandlerTexture) www.downloadHandler).texture;
         }
+        
+        Renderer renderer = sphere.GetComponent<Renderer>();
+
+        Material mat = new Material(Shader.Find("Insideout"));
+        renderer.material = mat;
+        renderer.material.SetTexture("_MainTex", sphereTexture);
+        _textureLoaded = true;
     }
 
     void OnMouseExit()
@@ -103,8 +117,8 @@ public class Transition : MonoBehaviour
                 if (r.GetType() == typeof(MeshRenderer))
                 {
                     continue;
-                } 
-                
+                }
+
                 r.enabled = false;
             }
 
@@ -138,7 +152,7 @@ public class Transition : MonoBehaviour
                     {
                         _rotating = false;
                     }
-                    else if (_moving &&  Quaternion.Angle(_lastRotation, tripod.transform.rotation) < 0.1)
+                    else if (_moving && Quaternion.Angle(_lastRotation, tripod.transform.rotation) < 0.1)
                     {
                         _jitterAvoidance = 10.0f;
                     }
@@ -180,14 +194,14 @@ public class Transition : MonoBehaviour
         _translated = false;
         _rotating = false;
         _textureLoaded = false;
-        
+
         // Enable renderers
         Component[] renderers = sphere.GetComponentsInChildren(typeof(Renderer));
         foreach (Renderer r in renderers)
         {
             r.enabled = true;
         }
-        
+
         StreetViewCamera.disable = false;
     }
 }
